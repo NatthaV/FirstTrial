@@ -9,3 +9,4 @@ ${BROWSER} 	chrome
 Go To homepage
  	Open Browser 	${HOMEPAGE} 	${BROWSER}
 	Input Text 
+	Close Browser
