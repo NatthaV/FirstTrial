@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20180929 11:50:42.011" generator="Robot 3.0.4 (Python 2.7.15 on darwin)">
+<suite source="/Users/natty/Desktop/testrobot.txt" id="s1" name="Testrobot">
+<test id="s1-t1" name="Go To homepage">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${HOMEPAGE}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20180929 11:50:42.117" level="INFO">Opening browser 'chrome' to base url 'http://www.google.com'.</msg>
+<status status="PASS" endtime="20180929 11:50:46.661" starttime="20180929 11:50:42.116"></status>
+</kw>
+<status status="PASS" endtime="20180929 11:50:46.662" critical="yes" starttime="20180929 11:50:42.116"></status>
+</test>
+<status status="PASS" endtime="20180929 11:50:46.663" starttime="20180929 11:50:42.013"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Testrobot" pass="1">Testrobot</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
